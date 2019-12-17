@@ -19,7 +19,7 @@ async def ping(ctx):
 
 @bot.command()
 async def test(ctx):
-    await ctx.send('!d bump')
+    await ctx.send('!d help')
 
 
 bot.run(token)
